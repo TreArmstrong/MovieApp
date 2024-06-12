@@ -1,7 +1,7 @@
 const fetch = require('node-fetch');
 
 app.get('/get-similar-movies', async (req, res) => {
-    const apiKey = 'A2783c111a5bb87f859a7f81e7c75db6';
+    const apiKey = 'API Key Here';
     const { movieId, movieTitle } = req.query;
     let url = '';
 
